@@ -25,10 +25,3 @@ else {
 }
 
 module.exports = pool;
-
-pool = new pg.Pool({
-  database: "cloud-todo",
-  host: process.env.DATABASE_HOST || 'localhost'
-});
-
-module.exports = pool;
